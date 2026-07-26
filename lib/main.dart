@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:truenote/features/authentication/presentation/screens/signin.dart';
 import 'package:truenote/features/authentication/presentation/screens/signup.dart';
+import 'package:truenote/features/authentication/presentation/screens/password_update.dart';
 
 void main() {
   runApp(
@@ -23,7 +24,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: SignInScreen())),
+      home: Scaffold(body: Center(child: PasswordUpdateScreen())),
     );
   }
 }

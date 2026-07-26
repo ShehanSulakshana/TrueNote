@@ -7,8 +7,8 @@ class FontThemes {
   );
 
   static const TextStyle heading2 = TextStyle(
-    fontSize: 20,
-    fontWeight: FontWeight.bold,
+    fontSize: 22,
+    fontWeight: FontWeight.w700,
   );
 
   static const TextStyle bodyText = TextStyle(fontSize: 16);
